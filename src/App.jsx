@@ -3,6 +3,7 @@ import BasicTextFields from "./components/BasicTextFields"
 import ValidationTextFields from "./components/ValidationTextFields"
 import Multiline from "./components/Multiline"
 import InputWithIcon from "./components/InputWithIcon"
+import InputSuffixShrink from "./components/InputSuffixShrink"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
     <ValidationTextFields />
     <Multiline />
     <InputWithIcon />
+    <InputSuffixShrink />
     </>
   )
 }
